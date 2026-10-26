@@ -1,0 +1,15 @@
+# Generated posters (rebuild with print/build.py for your domain)
+print/out/
+
+# Raw source material (originals of what is in site/img, internal documents)
+*.docx
+*.pdf
+BucketRecognition/
+ExtraPic/
+IMUAndGNSS/
+RadarAndCameraDetection */
+RealTimePosEstimation/
+StudentWorker/
+SurfaceLogging/
+VR_GameEngine/
+__pycache__/
