@@ -49,6 +49,9 @@ Output goes to `print/out/<domain>/`:
 - `all-posters.pdf`: all posters in one file
 - `qr/<id>.png|svg`: just the QR codes
 
+The QR codes for the domains in use are committed in `print/out/<domain>/qr/`
+(`sducollab.duckdns.org` and `sducollab.conx.leica-geosystems.com`). The PDFs are not committed; rebuild them.
+
 Poster texts are in `PROJECTS` and `POSTERS` at the top of `print/build.py`. They are shorter
 than the website texts on purpose.
 

@@ -1,5 +1,6 @@
-# Generated posters (rebuild with print/build.py for your domain)
-print/out/
+# Generated posters (rebuild with print/build.py for your domain); only the QR codes are kept
+print/out/*/*
+!print/out/*/qr/
 
 # Raw source material (originals of what is in site/img, internal documents)
 *.docx
@@ -13,3 +14,6 @@ StudentWorker/
 SurfaceLogging/
 VR_GameEngine/
 __pycache__/
+
+# Downloaded videos (large)
+videos/
