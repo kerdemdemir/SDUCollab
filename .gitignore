@@ -17,3 +17,8 @@ __pycache__/
 
 # Downloaded videos (large)
 videos/
+
+# Ready-to-print posters are kept too (must come after the *.pdf rule above)
+!print/out/*/pdf/
+!print/out/*/pdf/*.pdf
+!print/out/*/all-posters.pdf
